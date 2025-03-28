@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxOYXiMn444=",
+  "dgSpecHash": "UANZU8c4iGg=",
   "success": true,
-  "projectFilePath": "D:\\C#6\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
+  "projectFilePath": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nvnha\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nvnha\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

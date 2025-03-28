@@ -24,7 +24,7 @@ namespace ASM_NhomSugar_SD19311.Controllers
             _configuration = configuration;
         }
 
-        // Đăng ký (Register)
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {

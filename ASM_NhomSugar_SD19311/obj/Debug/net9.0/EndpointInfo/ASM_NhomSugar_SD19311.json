@@ -71,7 +71,7 @@
     "/api/products": {
       "get": {
         "tags": [
-          "Product"
+          "Home"
         ],
         "responses": {
           "200": {

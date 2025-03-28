@@ -396,7 +396,7 @@
     ]
   },
   {
-    "ContainingType": "ASM_NhomSugar_SD19311.Controllers.ProductController",
+    "ContainingType": "ASM_NhomSugar_SD19311.Controllers.HomeController",
     "Method": "GetProducts",
     "RelativePath": "api/products",
     "HttpMethod": "GET",

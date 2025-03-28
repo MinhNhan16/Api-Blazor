@@ -7005,11 +7005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#6\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
+      "projectUniqueName": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
       "projectName": "ASM_NhomSugar_SD19311",
-      "projectPath": "D:\\C#6\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
+      "projectPath": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\ASM_NhomSugar_SD19311.csproj",
       "packagesPath": "C:\\Users\\nvnha\\.nuget\\packages\\",
-      "outputPath": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\",
+      "outputPath": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

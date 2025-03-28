@@ -7,11 +7,11 @@ namespace ASM_NhomSugar_SD19311.Controllers
 {
     [Route("api/products")]
     [ApiController]
-    public class ProductController : Controller
+    public class HomeController : Controller
     {
         private readonly CakeShopContext _context;
 
-        public ProductController(CakeShopContext context)
+        public HomeController(CakeShopContext context)
         {
             _context = context;
         }

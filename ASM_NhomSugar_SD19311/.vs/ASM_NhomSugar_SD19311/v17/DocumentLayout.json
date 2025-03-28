@@ -1,150 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#6\\ASM_NhomSugar_SD19311\\",
+  "WorkspaceRootPath": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\data\\cakeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:data\\cakeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250324082326_Data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\controllers\\productordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\controllers\\productordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:controllers\\productordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\service\\productorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:service\\productorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\interface\\iproductorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:interface\\iproductorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\migrations\\20250324082854_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:migrations\\20250324082854_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\discounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\discounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\discounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\service\\productorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:service\\productorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\interface\\iproductorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:interface\\iproductorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\migrations\\20250324082854_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:migrations\\20250324082854_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\c#6\\asm_nhomsugar_sd19311\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\model\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:model\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|d:\\api-blazor\\asm_nhomsugar_sd19311\\data\\cakeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6E06FB-A2BC-E237-8301-16720E3CE6EF}|ASM_NhomSugar_SD19311.csproj|solutionrelative:data\\cakeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,136 +153,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Register.razor",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Register.razor",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "Pages\\Register.razor",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Register.razor",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Register.razor",
               "RelativeToolTip": "Pages\\Register.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-25T06:40:14.725Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 9,
               "Title": "Discounts.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Discounts.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Discounts.cs",
               "RelativeDocumentMoniker": "Model\\Discounts.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Discounts.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Discounts.cs",
               "RelativeToolTip": "Model\\Discounts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T08:12:10.192Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "site.css",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-03-27T05:29:47.297Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Login.razor",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Login.razor",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "Pages\\Login.razor",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Login.razor",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Login.razor",
               "RelativeToolTip": "Pages\\Login.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T06:25:09.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "home.css",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
               "RelativeToolTip": "wwwroot\\css\\home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-03-28T10:20:59.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ProductDto.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\ProductDto.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\ProductDto.cs",
               "RelativeDocumentMoniker": "DTO\\ProductDto.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\ProductDto.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\ProductDto.cs",
               "RelativeToolTip": "DTO\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:11:03.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:11:03.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "Pages\\Index.razor",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\Index.razor",
-              "RelativeToolTip": "Pages\\Index.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwIEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T10:09:54.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T10:08:25.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "App.razor",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\App.razor",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\App.razor",
               "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\App.razor",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\App.razor",
               "RelativeToolTip": "App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T06:44:03.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T06:44:03.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "login.css",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
               "RelativeToolTip": "wwwroot\\css\\login.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -292,63 +285,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "register.css",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\register.css",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
               "RelativeToolTip": "wwwroot\\css\\register.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-28T06:18:51.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T06:18:51.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\appsettings.Development.json",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T06:06:20.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T06:06:20.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Shared\\MainLayout.razor",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Shared\\MainLayout.razor",
               "RelativeToolTip": "Shared\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T05:36:44.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T05:36:44.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "_Host.cshtml.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\_Host.cshtml.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml.cs",
               "RelativeToolTip": "Pages\\_Host.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T05:34:10.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T05:34:10.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "_Host.cshtml",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Pages\\_Host.cshtml",
               "RelativeToolTip": "Pages\\_Host.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -357,274 +346,256 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\LoginRequest.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTO\\LoginRequest.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\LoginRequest.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\LoginRequest.cs",
               "RelativeToolTip": "DTO\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T07:54:54.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T07:54:54.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 19,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "DTO\\RegisterRequest.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\DTO\\RegisterRequest.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\DTO\\RegisterRequest.cs",
               "RelativeToolTip": "DTO\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T07:54:26.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T07:54:26.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 20,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Service\\AuthService.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "Service\\AuthService.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Service\\AuthService.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Service\\AuthService.cs",
               "RelativeToolTip": "Service\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T06:34:36.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T06:34:36.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T06:12:17.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 4,
               "Title": "ProductOrderController.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\ProductOrderController.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\ProductOrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductOrderController.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Controllers\\ProductOrderController.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Controllers\\ProductOrderController.cs",
               "RelativeToolTip": "Controllers\\ProductOrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T11:55:30.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "ProductOrderService.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Service\\ProductOrderService.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Service\\ProductOrderService.cs",
               "RelativeDocumentMoniker": "Service\\ProductOrderService.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Service\\ProductOrderService.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Service\\ProductOrderService.cs",
               "RelativeToolTip": "Service\\ProductOrderService.cs",
               "ViewState": "AgIAAKUBAAAAAAAAAAAuwLkBAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:54:28.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:54:28.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "IProductOrderService.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Interface\\IProductOrderService.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Interface\\IProductOrderService.cs",
               "RelativeDocumentMoniker": "Interface\\IProductOrderService.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Interface\\IProductOrderService.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Interface\\IProductOrderService.cs",
               "RelativeToolTip": "Interface\\IProductOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:50:53.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:50:53.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "OrderStatus.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Enums\\OrderStatus.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Enums\\OrderStatus.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Enums\\OrderStatus.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Enums\\OrderStatus.cs",
               "RelativeToolTip": "Enums\\OrderStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:46:09.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:46:09.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 24,
               "Title": "20250324082854_Data.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082854_Data.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Migrations\\20250324082854_Data.cs",
               "RelativeDocumentMoniker": "Migrations\\20250324082854_Data.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082854_Data.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Migrations\\20250324082854_Data.cs",
               "RelativeToolTip": "Migrations\\20250324082854_Data.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:28:54.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:28:54.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 7,
               "Title": "20250324082326_Data.cs",
               "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250324082326_Data.cs",
+              "RelativeDocumentMoniker": "..\\..\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs",
               "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs",
-              "RelativeToolTip": "Migrations\\20250324082326_Data.cs",
+              "RelativeToolTip": "..\\..\\C#6\\ASM_NhomSugar_SD19311\\Migrations\\20250324082326_Data.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T08:23:26.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "Chats.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Chats.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Chats.cs",
               "RelativeDocumentMoniker": "Model\\Chats.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Chats.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Chats.cs",
               "RelativeToolTip": "Model\\Chats.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:14:45.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:14:45.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "Model\\OrderDetails.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\OrderDetails.cs",
+              "RelativeToolTip": "Model\\OrderDetails.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:14:20.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Orders.cs",
+              "RelativeDocumentMoniker": "Model\\Orders.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Orders.cs",
+              "RelativeToolTip": "Model\\Orders.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:13:54.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Cart.cs",
+              "RelativeDocumentMoniker": "Model\\Cart.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Cart.cs",
+              "RelativeToolTip": "Model\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:12:35.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Products.cs",
+              "RelativeDocumentMoniker": "Model\\Products.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Products.cs",
+              "RelativeToolTip": "Model\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:11:46.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Categories.cs",
+              "RelativeDocumentMoniker": "Model\\Categories.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Categories.cs",
+              "RelativeToolTip": "Model\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:11:17.025Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "Model\\OrderDetails.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\OrderDetails.cs",
-              "RelativeToolTip": "Model\\OrderDetails.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Users.cs",
+              "RelativeDocumentMoniker": "Model\\Users.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Users.cs",
+              "RelativeToolTip": "Model\\Users.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:14:20.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:04:40.614Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Orders.cs",
-              "RelativeDocumentMoniker": "Model\\Orders.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Orders.cs",
-              "RelativeToolTip": "Model\\Orders.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCQAAABRAAAAAAAAAA==",
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Accounts.cs",
+              "RelativeDocumentMoniker": "Model\\Accounts.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Model\\Accounts.cs",
+              "RelativeToolTip": "Model\\Accounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:13:54.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:04:14.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Cart.cs",
-              "RelativeDocumentMoniker": "Model\\Cart.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Cart.cs",
-              "RelativeToolTip": "Model\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABcAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:12:35.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Products.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Products.cs",
-              "RelativeDocumentMoniker": "Model\\Products.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Products.cs",
-              "RelativeToolTip": "Model\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:11:46.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:03:39.434Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Categories.cs",
-              "RelativeDocumentMoniker": "Model\\Categories.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Categories.cs",
-              "RelativeToolTip": "Model\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:11:17.025Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T08:01:42.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "Users.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Users.cs",
-              "RelativeDocumentMoniker": "Model\\Users.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Users.cs",
-              "RelativeToolTip": "Model\\Users.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:04:40.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Accounts.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Accounts.cs",
-              "RelativeDocumentMoniker": "Model\\Accounts.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Model\\Accounts.cs",
-              "RelativeToolTip": "Model\\Accounts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:04:14.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAYwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:03:39.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T08:01:42.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CakeShopContext.cs",
-              "DocumentMoniker": "D:\\C#6\\ASM_NhomSugar_SD19311\\Data\\CakeShopContext.cs",
+              "DocumentMoniker": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Data\\CakeShopContext.cs",
               "RelativeDocumentMoniker": "Data\\CakeShopContext.cs",
-              "ToolTip": "D:\\C#6\\ASM_NhomSugar_SD19311\\Data\\CakeShopContext.cs",
+              "ToolTip": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\Data\\CakeShopContext.cs",
               "RelativeToolTip": "Data\\CakeShopContext.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAYwDoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:00:16.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:00:16.769Z"
             }
           ]
         }

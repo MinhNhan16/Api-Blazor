@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lK2q2wC4uPO9hrPOGEhjEzLFqB1Ki0LRXzZJsdT5G38=",
+  "Hash": "v+wXbcTECvTFYGyJ9nsrxsZzjhMgA+TsEKou5o9iDcg=",
   "Source": "ASM_NhomSugar_SD19311",
   "BasePath": "_content/ASM_NhomSugar_SD19311",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ASM_NhomSugar_SD19311\\wwwroot",
       "Source": "ASM_NhomSugar_SD19311",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/register#[.{fingerprint=fxz8dvsdey}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+      "RelatedAsset": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xqsd742kis",
       "Integrity": "yemkUttB5fE8/mEIHJQHmvqmTYmtYLPmgAJA/44a9bU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css"
+      "OriginalItemSpec": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/site#[.{fingerprint=5nl8gu3sqg}]?.css.gz",
       "AssetKind": "All",
@@ -49,41 +49,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+      "RelatedAsset": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "l4zxv76ytt",
       "Integrity": "6/Ryp4DqnVeidcYjW2scyJFc/rICo6DA2GG7xcddSHg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-zxl9pefsvx.gz",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-sxy8mvs9i5.gz",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
-      "RelativePath": "css/home#[.{fingerprint=zxl9pefsvx}]?.css.gz",
+      "RelativePath": "css/home#[.{fingerprint=sxy8mvs9i5}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+      "RelatedAsset": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zbs0xrdyb2",
-      "Integrity": "b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0=",
+      "Fingerprint": "qffcp3moas",
+      "Integrity": "Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css"
+      "OriginalItemSpec": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/login#[.{fingerprint=i1jpojqaw0}]?.css.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+      "RelatedAsset": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "tiof6gznt4",
       "Integrity": "5R8D0GorCzA0bpJcth0NzPyN+L0eI4IIUw+qZzC0jN0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css"
+      "OriginalItemSpec": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/home#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zxl9pefsvx",
-      "Integrity": "V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M=",
+      "Fingerprint": "sxy8mvs9i5",
+      "Integrity": "IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/login#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/register#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "images/banner1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner1.png"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "images/banner2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner2.jpg"
     },
     {
-      "Identity": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
+      "Identity": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
       "SourceId": "ASM_NhomSugar_SD19311",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\",
+      "ContentRoot": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\",
       "BasePath": "_content/ASM_NhomSugar_SD19311",
       "RelativePath": "images/banner3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -251,12 +251,12 @@
   "Endpoints": [
     {
       "Route": "css/home.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-zxl9pefsvx.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-sxy8mvs9i5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005714285714"
+          "Quality": "0.001445086705"
         }
       ],
       "ResponseHeaders": [
@@ -266,15 +266,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "174"
+          "Value": "691"
         },
         {
           "Name": "ETag",
-          "Value": "\"b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0=\""
+          "Value": "\"Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -294,19 +294,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M=\""
+          "Value": "W/\"IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M="
+          "Value": "sha256-IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg="
         }
       ]
     },
     {
       "Route": "css/home.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "218"
+          "Value": "1941"
         },
         {
           "Name": "Content-Type",
@@ -323,11 +323,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M=\""
+          "Value": "\"IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -337,13 +337,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M="
+          "Value": "sha256-IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg="
         }
       ]
     },
     {
       "Route": "css/home.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-zxl9pefsvx.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-sxy8mvs9i5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -352,7 +352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "174"
+          "Value": "691"
         },
         {
           "Name": "Content-Type",
@@ -360,11 +360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0=\""
+          "Value": "\"Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -382,18 +382,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0="
+          "Value": "sha256-Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY="
         }
       ]
     },
     {
-      "Route": "css/home.zxl9pefsvx.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-zxl9pefsvx.gz",
+      "Route": "css/home.sxy8mvs9i5.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-sxy8mvs9i5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005714285714"
+          "Quality": "0.001445086705"
         }
       ],
       "ResponseHeaders": [
@@ -403,15 +403,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "174"
+          "Value": "691"
         },
         {
           "Name": "ETag",
-          "Value": "\"b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0=\""
+          "Value": "\"Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -431,13 +431,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M=\""
+          "Value": "W/\"IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zxl9pefsvx"
+          "Value": "sxy8mvs9i5"
         },
         {
           "Name": "label",
@@ -445,13 +445,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M="
+          "Value": "sha256-IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg="
         }
       ]
     },
     {
-      "Route": "css/home.zxl9pefsvx.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
+      "Route": "css/home.sxy8mvs9i5.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -460,7 +460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "218"
+          "Value": "1941"
         },
         {
           "Name": "Content-Type",
@@ -468,11 +468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M=\""
+          "Value": "\"IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -482,7 +482,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zxl9pefsvx"
+          "Value": "sxy8mvs9i5"
         },
         {
           "Name": "label",
@@ -490,13 +490,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-V3jgv6awLt0rXGzoCNV//VH0uog0VfS/AnHjQTUdv/M="
+          "Value": "sha256-IOs/kRDveQzKhiYcc5Z7BEWfY5s2h6jf3y8SoKqqokg="
         }
       ]
     },
     {
-      "Route": "css/home.zxl9pefsvx.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-zxl9pefsvx.gz",
+      "Route": "css/home.sxy8mvs9i5.css.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\ig40clcwgi-sxy8mvs9i5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -505,7 +505,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "174"
+          "Value": "691"
         },
         {
           "Name": "Content-Type",
@@ -513,11 +513,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0=\""
+          "Value": "\"Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 11:09:05 GMT"
+          "Value": "Fri, 28 Mar 2025 12:15:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -535,7 +535,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zxl9pefsvx"
+          "Value": "sxy8mvs9i5"
         },
         {
           "Name": "label",
@@ -543,13 +543,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-b+yYoQQ9q6tCUdGnhyZfpUX+sHqldHZ2ILzbRS9B1G0="
+          "Value": "sha256-Jt6E/B4m3u0rz8e4DVvmw6EFpqP0By5qkzwab8r6zsY="
         }
       ]
     },
     {
       "Route": "css/login.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -604,7 +604,7 @@
     },
     {
       "Route": "css/login.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -641,7 +641,7 @@
     },
     {
       "Route": "css/login.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -686,7 +686,7 @@
     },
     {
       "Route": "css/login.i1jpojqaw0.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -749,7 +749,7 @@
     },
     {
       "Route": "css/login.i1jpojqaw0.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -794,7 +794,7 @@
     },
     {
       "Route": "css/login.i1jpojqaw0.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\v5nunz5db0-i1jpojqaw0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -847,7 +847,7 @@
     },
     {
       "Route": "css/register.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -902,7 +902,7 @@
     },
     {
       "Route": "css/register.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -939,7 +939,7 @@
     },
     {
       "Route": "css/register.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -984,7 +984,7 @@
     },
     {
       "Route": "css/register.fxz8dvsdey.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1047,7 +1047,7 @@
     },
     {
       "Route": "css/register.fxz8dvsdey.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\register.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1092,7 +1092,7 @@
     },
     {
       "Route": "css/register.fxz8dvsdey.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\6jxw8z2dxn-fxz8dvsdey.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1145,7 +1145,7 @@
     },
     {
       "Route": "css/site.5nl8gu3sqg.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1208,7 +1208,7 @@
     },
     {
       "Route": "css/site.5nl8gu3sqg.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1253,7 +1253,7 @@
     },
     {
       "Route": "css/site.5nl8gu3sqg.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1306,7 +1306,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1361,7 +1361,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1398,7 +1398,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\obj\\Debug\\net9.0\\compressed\\gxd6xzbpaj-5nl8gu3sqg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1443,7 +1443,7 @@
     },
     {
       "Route": "images/banner1.png",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1480,7 +1480,7 @@
     },
     {
       "Route": "images/banner1.swijbfhatt.png",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1525,7 +1525,7 @@
     },
     {
       "Route": "images/banner2.jpg",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1562,7 +1562,7 @@
     },
     {
       "Route": "images/banner2.m942qxt5ih.jpg",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1607,7 +1607,7 @@
     },
     {
       "Route": "images/banner3.9b5qp9ps0r.jpg",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1652,7 +1652,7 @@
     },
     {
       "Route": "images/banner3.jpg",
-      "AssetFile": "D:\\C#6\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
+      "AssetFile": "D:\\Api-Blazor\\ASM_NhomSugar_SD19311\\wwwroot\\images\\banner3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

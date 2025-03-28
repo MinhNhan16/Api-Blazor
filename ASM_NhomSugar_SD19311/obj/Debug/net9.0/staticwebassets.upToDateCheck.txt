@@ -1,7 +1,7 @@
-D:\C#6\ASM_NhomSugar_SD19311\wwwroot\css\register.css
-D:\C#6\ASM_NhomSugar_SD19311\wwwroot\css\site.css
-D:\C#6\ASM_NhomSugar_SD19311\wwwroot\css\home.css
-D:\C#6\ASM_NhomSugar_SD19311\wwwroot\css\login.css
+D:\Api-Blazor\ASM_NhomSugar_SD19311\wwwroot\css\register.css
+D:\Api-Blazor\ASM_NhomSugar_SD19311\wwwroot\css\site.css
+D:\Api-Blazor\ASM_NhomSugar_SD19311\wwwroot\css\home.css
+D:\Api-Blazor\ASM_NhomSugar_SD19311\wwwroot\css\login.css
 wwwroot\css\home.css
 wwwroot\css\login.css
 wwwroot\css\register.css
