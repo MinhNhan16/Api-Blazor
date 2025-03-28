@@ -6,28 +6,28 @@
 @inject HttpClient Http
 @using static System.Net.WebRequestMethods
 @inject CakeShopContext _context
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+@* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> *@
 <link href="css/home.css" rel="stylesheet" />
+<style>
+    .container {
+        max-width: 1200px;
+    }
+</style>
 <!-- 🔝 Thanh điều hướng -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <div class="container">
+<header class="py-4 top-0 bg-white sticky border-b shadow-sm">
+    <div class="container mx-auto flex justify-between">
         <a class="navbar-brand text-danger fw-bold" href="/">🍰 SweetCake</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Trang Chủ</a></li>
-                <li class="nav-item"><a class="nav-link" href="/products">Sản Phẩm</a></li>
-                <li class="nav-item"><a class="nav-link" href="/cart">Giỏ Hàng</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact">Liên Hệ</a></li>
-                <li class="nav-item"><a class="nav-link" href="/register">Đăng ký</a></li>
-                <li class="nav-item"><a class="nav-link" href="/login">Đăng nhập</a></li>
-            </ul>
-        </div>
+        <ul class="gap-x-3 flex">
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/">Trang Chủ</a></li>
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/products">Sản Phẩm</a></li>
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/cart">Giỏ Hàng</a></li>
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/contact">Liên Hệ</a></li>
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/register">Đăng ký</a></li>
+            <li class="hover:underline hover:text-primary"><a class="nav-link" href="/login">Đăng nhập</a></li>
+        </ul>
     </div>
-</nav>
+</header>
 
 <!-- 🎬 Banner Slideshow -->
 <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
@@ -50,21 +50,21 @@
 </div>
 
 <!-- 🔍 Thanh tìm kiếm -->
-<div class="container mt-4 text-center">
+<div class="mt-4 container text-center">
     <input type="text" @bind="searchQuery" @bind:event="oninput" class="form-control w-50 d-inline-block" placeholder="Tìm kiếm bánh ngọt...">
     <button class="btn btn-primary ms-2" @onclick="SearchProducts">🔍 Tìm kiếm</button>
 </div>
 
 
- <h3 class="text-center mt-4">🎂 Sản Phẩm Nổi Bật</h3>
+ <h3 class="mt-4 text-center">🎂 Sản Phẩm Nổi Bật</h3>
 
     @if (products == null)
     {
-        <p class="text-center text-muted">Đang tải sản phẩm...</p>
+        <p class="text-muted text-center">Đang tải sản phẩm...</p>
     }
     else if (!products.Any())
     {
-        <p class="text-center text-warning">Không tìm thấy sản phẩm nào.</p>
+        <p class="text-warning text-center">Không tìm thấy sản phẩm nào.</p>
     }
     else
     {
@@ -86,13 +86,13 @@
         </div>
     }
 <!-- 📢 Phần giới thiệu -->
-<div class="container mt-5 text-center bg-light p-4 rounded shadow-sm">
+<div class="mt-5 bg-light p-4 container rounded text-center shadow-sm">
     <h3>🍰 Giới Thiệu SweetCake</h3>
     <p class="text-muted">SweetCake - cửa hàng bánh ngọt hàng đầu với nguyên liệu tự nhiên và hương vị thơm ngon.</p>
 </div>
 
 <!-- 📌 Chân trang -->
-<footer class="bg-dark text-white text-center p-3 mt-4">
+<footer class="bg-dark text-white p-3 mt-4 text-center">
     <p>© 2025 SweetCake. All Rights Reserved.</p>
 </footer>
 

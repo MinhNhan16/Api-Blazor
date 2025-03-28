@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASM_NhomSugar_SD19311")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7694938802b9db354121c3f9625dd5e542a54e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+115c6f2263d32d719dad6fc968ef16cd316e9b03")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASM_NhomSugar_SD19311")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASM_NhomSugar_SD19311")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
