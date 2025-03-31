@@ -37,7 +37,7 @@
                 <ValidationMessage For="@(() => loginModel.Password)" />
             </div>
 
-            <div class="d-grid gap-2 mb-3">
+            <div class="d-grid mb-3 gap-2">
                 <button type="submit" class="btn btn-primary" disabled="@isLoading">
                     @if (isLoading)
                     {
@@ -59,33 +59,6 @@
     private LoginRequest loginModel = new();
     private string errorMessage = string.Empty;
     private bool isLoading = false;
-    private bool isPreRendering = true;
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            isPreRendering = false;
-            await CheckAuthAndRedirect();
-            StateHasChanged();
-        }
-    }
-
-    private async Task CheckAuthAndRedirect()
-    {
-        try
-        {
-            var token = await LocalStorage.GetItemAsync<string>("authToken");
-            if (!string.IsNullOrEmpty(token))
-            {
-                Navigation.NavigateTo("/", forceLoad: true);
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Auth check error: {ex.Message}");
-        }
-    }
 
     private async Task HandleValidSubmit()
     {
@@ -94,12 +67,15 @@
 
         try
         {
-            var response = await Http.PostAsJsonAsync("api/account/login", loginModel);
+            var response = await Http.PostAsJsonAsync("https://localhost:44366/api/account/login", loginModel);
 
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                // Lưu token và email vào LocalStorage
                 await LocalStorage.SetItemAsync("authToken", result.Token);
+                await LocalStorage.SetItemAsync("userEmail", loginModel.Email);
+                Console.WriteLine($"Login successful - Token: {result.Token}, Email: {loginModel.Email}");
 
                 Http.DefaultRequestHeaders.Authorization =
                     new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", result.Token);
@@ -113,6 +89,7 @@
                 {
                     errorMessage = "Email hoặc mật khẩu không đúng!";
                 }
+                Console.WriteLine($"Login failed: {errorMessage}");
             }
         }
         catch (HttpRequestException ex)

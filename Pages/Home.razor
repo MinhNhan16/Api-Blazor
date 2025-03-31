@@ -6,6 +6,8 @@
 @inject HttpClient Http
 @using static System.Net.WebRequestMethods
 @inject CakeShopContext _context
+@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -19,8 +21,19 @@
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/products">Sản Phẩm</a></li>
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/cart">Giỏ Hàng</a></li>
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/contact">Liên Hệ</a></li>
-            <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/register">Đăng ký</a></li>
-            <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/login">Đăng nhập</a></li>
+
+            @if (isAuthenticated)
+            {
+                <li class="text-sm text-gray-600">Xin chào, @userEmail</li>
+                <li class="text-sm hover:underline hover:text-primary">
+                    <button class="nav-link" @onclick="Logout">Đăng xuất</button>
+                </li>
+            }
+            else
+            {
+                <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/register">Đăng ký</a></li>
+                <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/login">Đăng nhập</a></li>
+            }
         </ul>
     </div>
 </header>
@@ -98,15 +111,52 @@
 
 </script>
 
+
 @code {
     private List<Products>? products;
-    private List<Categories>? categories;
     private string searchQuery = "";
-
+    private bool isAuthenticated = false;
+    private string userEmail = "";
     protected override async Task OnInitializedAsync()
     {
-        categories = await _context.Categories.ToListAsync();
+        // Tải dữ liệu sản phẩm và danh mục
         products = await _context.Products.ToListAsync();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadAuthState();
+            StateHasChanged();
+        }
+    }
+
+    private async Task LoadAuthState()
+    {
+        try
+        {
+            var token = await LocalStorage.GetItemAsync<string>("authToken");
+            var email = await LocalStorage.GetItemAsync<string>("userEmail");
+            Console.WriteLine($"Checking LocalStorage - Token: {token}, Email: {email}");
+
+            if (!string.IsNullOrEmpty(token) && !string.IsNullOrEmpty(email))
+            {
+                isAuthenticated = true;
+                userEmail = email;
+                Console.WriteLine($"Authenticated: {isAuthenticated}, Email: {userEmail}");
+            }
+            else
+            {
+                isAuthenticated = false;
+                userEmail = "";
+                Console.WriteLine("Not authenticated - Token or Email missing");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading auth state: {ex.Message}");
+        }
     }
 
     private void SearchProducts()
@@ -132,6 +182,28 @@
         else
         {
             products = _context.Products.Where(p => p.CategoryId == categoryId).ToList();
+        }
+    }
+
+    private async Task Logout()
+    {
+        Console.WriteLine("Logout triggered");
+        try
+        {
+            await LocalStorage.RemoveItemAsync("authToken");
+            await LocalStorage.RemoveItemAsync("userEmail");
+            Console.WriteLine("LocalStorage cleared");
+
+            isAuthenticated = false;
+            userEmail = "";
+            StateHasChanged();
+            Console.WriteLine("State reset, navigating to home");
+
+            NavigationManager.NavigateTo("/", forceLoad: true);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Logout error: {ex.Message}");
         }
     }
 }

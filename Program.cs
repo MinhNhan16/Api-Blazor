@@ -12,8 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
+
 builder.Services.AddScoped<HttpClient>();
 builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+builder.Services.AddHttpContextAccessor();
 
 
 // Thêm dịch vụ DbContext
@@ -30,6 +34,13 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn session
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 
 // Thêm dịch vụ Swagger
 builder.Services.AddSwaggerGen(c =>
