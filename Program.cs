@@ -1,4 +1,6 @@
-﻿using ASM_NhomSugar_SD19311.Data;
+﻿using ApexCharts;
+using ASM_NhomSugar_SD19311.Data;
+using ASM_NhomSugar_SD19311.Service;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -18,8 +20,8 @@ builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 builder.Services.AddHttpContextAccessor();
-
-
+builder.Services.AddApexCharts();
+builder.Services.AddScoped<StatisticsService>();
 // Thêm dịch vụ DbContext
 builder.Services.AddDbContext<CakeShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

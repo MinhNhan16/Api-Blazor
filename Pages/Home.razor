@@ -1,12 +1,15 @@
-﻿@page "/"
+﻿@page "/home"
 @using ASM_NhomSugar_SD19311.DTO
 @using ASM_NhomSugar_SD19311.Data
 @using ASM_NhomSugar_SD19311.Model
 @using Microsoft.EntityFrameworkCore
+@using Microsoft.JSInterop
 @inject HttpClient Http
 @using static System.Net.WebRequestMethods
 @inject CakeShopContext _context
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
 @inject Blazored.LocalStorage.ILocalStorageService LocalStorage
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,7 +29,7 @@
             {
                 <li class="text-sm text-gray-600">Xin chào, @userEmail</li>
                 <li class="text-sm hover:underline hover:text-primary">
-                    <button class="nav-link" @onclick="Logout">Đăng xuất</button>
+                    <button @onclick="Logout">Đăng xuất</button>
                 </li>
             }
             else
@@ -184,26 +187,13 @@
             products = _context.Products.Where(p => p.CategoryId == categoryId).ToList();
         }
     }
-
     private async Task Logout()
     {
-        Console.WriteLine("Logout triggered");
-        try
-        {
-            await LocalStorage.RemoveItemAsync("authToken");
-            await LocalStorage.RemoveItemAsync("userEmail");
-            Console.WriteLine("LocalStorage cleared");
+        await JS.InvokeVoidAsync("localStorage.removeItem", "authToken");
+        await JS.InvokeVoidAsync("localStorage.removeItem", "userEmail");
 
-            isAuthenticated = false;
-            userEmail = "";
-            StateHasChanged();
-            Console.WriteLine("State reset, navigating to home");
-
-            NavigationManager.NavigateTo("/", forceLoad: true);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Logout error: {ex.Message}");
-        }
+        // Chuyển hướng về trang chủ
+        Navigation.NavigateTo("/", forceLoad: true);
     }
+   
 }

@@ -1,0 +1,83 @@
+﻿@page "/"
+
+<!-- Include Tailwind CSS and Slick Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="flex h-screen flex-col">
+    <!-- Header -->
+    <header class="bg-gradient-to-r border-b border-pink-800 from-pink-200 to-purple-300 p-4 shadow-md">
+        <div class="text-xl font-bold text-white">
+            <span>🎂 SUGAR</span>
+        </div>
+    </header>
+
+    <!-- Sidebar and Main Content -->
+    <div class="flex flex-1 overflow-hidden">
+        <!-- Sidebar -->
+        <nav class="w-52 border-r border-pink-200 bg-pink-50 p-4">
+            <ul class="space-y-2">
+                <li>
+                    <a href="/home" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">🏠</span>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/user" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">👥</span>
+                        <span>Người dùng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/product" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">📧</span>
+                        <span>Sản phẩm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/category" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">🏢</span>
+                        <span>Loại hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/size" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">📊</span>
+                        <span>Kích cỡ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/color" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">🎨</span>
+                        <span>Màu sắc</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/order" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">➡️</span>
+                        <span>Đơn hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/chat" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">💬</span>
+                        <span>Chat</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/statistics" class="flex items-center rounded p-2 text-pink-600 transition-colors hover:bg-pink-100 hover:text-pink-800">
+                        <span class="mr-2 text-2xl">💬</span>
+                        <span>Thống kê</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content (Placeholder for @Body in a layout) -->
+        <main class="flex-1 overflow-y-auto bg-gray-50 p-4">
+            @* @Body will go here if this is a layout *@
+        </main>
+    </div>
+</div>
