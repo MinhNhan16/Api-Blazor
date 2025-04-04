@@ -1,6 +1,7 @@
 ﻿using ASM_NhomSugar_SD19311.Data;
 using ASM_NhomSugar_SD19311.DTO;
 using ASM_NhomSugar_SD19311.Model;
+using ASM_NhomSugar_SD19311.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -17,11 +18,13 @@ namespace ASM_NhomSugar_SD19311.Controllers
     {
         private readonly CakeShopContext _context;
         private readonly IConfiguration _configuration;
+        private readonly AuthService _authService;
 
-        public AccountController(CakeShopContext context, IConfiguration configuration)
+        public AccountController(CakeShopContext context, IConfiguration configuration, AuthService authService)
         {
             _context = context;
             _configuration = configuration;
+            _authService = authService;
         }
 
 
@@ -97,9 +100,14 @@ namespace ASM_NhomSugar_SD19311.Controllers
             });
         }
 
+        public async Task<IActionResult> Logout()
+        {
+            // Call LogoutAsync from AuthService
+            await _authService.LogoutAsync();
 
-
-
+            // Redirect to the login page or home page after logout
+            return RedirectToAction("Login", "Account");
+        }
 
         // Hàm tạo JWT token (giữ nguyên)
         private string GenerateJwtToken(Accounts account)

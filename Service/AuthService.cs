@@ -1,14 +1,21 @@
-﻿namespace ASM_NhomSugar_SD19311.Service
+﻿using Blazored.LocalStorage;
+using Microsoft.JSInterop;
+using System.Net.Http.Headers;
+
+namespace ASM_NhomSugar_SD19311.Service
 {
     public class AuthService
     {
-        /*private readonly ILocalStorageService _localStorage;
+        private readonly ILocalStorageService _localStorage;
         private readonly HttpClient _httpClient;
+        private readonly IJSRuntime _jsRuntime;
 
-        public AuthService(ILocalStorageService localStorage, HttpClient httpClient)
+
+        public AuthService(ILocalStorageService localStorage, HttpClient httpClient, IJSRuntime jsRuntime)
         {
             _localStorage = localStorage;
             _httpClient = httpClient;
+            _jsRuntime = jsRuntime;
         }
 
         public async Task<string> GetTokenAsync()
@@ -35,6 +42,6 @@
             {
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
-        }*/
+        }
     }
 }

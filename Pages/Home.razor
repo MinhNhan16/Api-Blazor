@@ -15,12 +15,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="css/home.css" rel="stylesheet" />
+<link href="css/site.js" rel="stylesheet" />
 <!-- 🔝 Thanh điều hướng -->
 <header class="sticky top-0 z-20 border-b bg-white py-4 shadow-sm">
     <div class="container mx-auto flex justify-between">
         <a class="navbar-brand text-danger fw-bold" href="/">🍰 SweetCake</a>
         <ul class="flex gap-x-3">
-            <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/">Trang Chủ</a></li>
+            <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/home">Trang Chủ</a></li>
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/products">Sản Phẩm</a></li>
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/cart">Giỏ Hàng</a></li>
             <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/contact">Liên Hệ</a></li>
@@ -28,9 +29,7 @@
             @if (isAuthenticated)
             {
                 <li class="text-sm text-gray-600">Xin chào, @userEmail</li>
-                <li class="text-sm hover:underline hover:text-primary">
-                    <button @onclick="Logout">Đăng xuất</button>
-                </li>
+                <li class="text-sm hover:underline hover:text-primary"><a class="nav-link" href="/logout">Đăng xuất</a></li>
             }
             else
             {
@@ -104,15 +103,31 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 <script>
-    $('.banner').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
+    $(document).ready(function () {
+        var currentSlide = localStorage.getItem('currentSlide') || 0;
+
+        var slickBanner = $('.banner').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            initialSlide: parseInt(currentSlide),
+        });
+
+        slickBanner.on('afterChange', function (event, slick, currentSlide) {
+            localStorage.setItem('currentSlide', currentSlide);
+        });
     });
 
+    window.clearAuthData = function () {
+        localStorage.removeItem('authToken');
+        localStorage.removeItem('userEmail');
+    };
 </script>
+
 
 
 @code {
@@ -122,7 +137,6 @@
     private string userEmail = "";
     protected override async Task OnInitializedAsync()
     {
-        // Tải dữ liệu sản phẩm và danh mục
         products = await _context.Products.ToListAsync();
     }
 
@@ -189,11 +203,25 @@
     }
     private async Task Logout()
     {
-        await JS.InvokeVoidAsync("localStorage.removeItem", "authToken");
-        await JS.InvokeVoidAsync("localStorage.removeItem", "userEmail");
+        // Gọi API logout (tùy chọn)
+        var response = await Http.PostAsync("https://localhost:44366/api/account/logout", null);
+        if (response.IsSuccessStatusCode)
+        {
+            // Xóa dữ liệu LocalStorage
+            await JS.InvokeVoidAsync("clearAuthData");
 
-        // Chuyển hướng về trang chủ
-        Navigation.NavigateTo("/", forceLoad: true);
+            // Cập nhật trạng thái
+            isAuthenticated = false;
+            userEmail = "";
+            StateHasChanged();
+
+            // Điều hướng về trang đăng nhập
+            Navigation.NavigateTo("/login", forceLoad: true);
+        }
+        else
+        {
+            // Xử lý lỗi nếu cần
+            Console.WriteLine("Logout API call failed");
+        }
     }
-   
 }
