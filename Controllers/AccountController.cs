@@ -100,13 +100,18 @@ namespace ASM_NhomSugar_SD19311.Controllers
             });
         }
 
+        [HttpPost("logout")] // Đổi thành POST để phù hợp với API
         public async Task<IActionResult> Logout()
         {
-            // Call LogoutAsync from AuthService
-            await _authService.LogoutAsync();
-
-            // Redirect to the login page or home page after logout
-            return RedirectToAction("Login", "Account");
+            try
+            {
+                await _authService.LogoutAsync();
+                return Ok(new { message = "Đăng xuất thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = $"Lỗi khi đăng xuất: {ex.Message}" });
+            }
         }
 
         // Hàm tạo JWT token (giữ nguyên)

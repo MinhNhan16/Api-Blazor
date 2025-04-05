@@ -32,6 +32,8 @@ namespace ASM_NhomSugar_SD19311.Service
         public async Task LogoutAsync()
         {
             await _localStorage.RemoveItemAsync("authToken");
+            // Xóa thêm các key khác nếu có
+            await _localStorage.ClearAsync(); // Xóa toàn bộ localStorage (tùy chọn, nếu cần)
         }
 
         // Configure HttpClient to include the JWT token in requests
