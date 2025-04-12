@@ -1,7 +1,6 @@
 ﻿using ASM_NhomSugar_SD19311.Data;
 using ASM_NhomSugar_SD19311.DTO;
 using ASM_NhomSugar_SD19311.Model;
-using ASM_NhomSugar_SD19311.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -18,16 +17,14 @@ namespace ASM_NhomSugar_SD19311.Controllers
     {
         private readonly CakeShopContext _context;
         private readonly IConfiguration _configuration;
-        private readonly AuthService _authService;
 
-        public AccountController(CakeShopContext context, IConfiguration configuration, AuthService authService)
+        public AccountController(CakeShopContext context, IConfiguration configuration)
         {
             _context = context;
             _configuration = configuration;
-            _authService = authService;
         }
 
-
+        // Đăng ký (Register)
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -100,19 +97,6 @@ namespace ASM_NhomSugar_SD19311.Controllers
             });
         }
 
-        [HttpPost("logout")] // Đổi thành POST để phù hợp với API
-        public async Task<IActionResult> Logout()
-        {
-            try
-            {
-                await _authService.LogoutAsync();
-                return Ok(new { message = "Đăng xuất thành công!" });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = $"Lỗi khi đăng xuất: {ex.Message}" });
-            }
-        }
 
         // Hàm tạo JWT token (giữ nguyên)
         private string GenerateJwtToken(Accounts account)

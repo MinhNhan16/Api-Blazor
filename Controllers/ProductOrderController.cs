@@ -16,7 +16,7 @@ namespace ASM_NhomSugar_SD19311.Controllers
             _service = service;
         }
 
-
+        // 1. Manage Products
         [HttpGet("products")]
         public async Task<ActionResult<IEnumerable<Products>>> GetProducts()
         {

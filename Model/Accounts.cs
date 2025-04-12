@@ -23,6 +23,5 @@ namespace ASM_NhomSugar_SD19311.Model
 
         [StringLength(20, ErrorMessage = "Vai trò không được dài quá 20 ký tự")]
         public string Role { get; set; }
-
     }
 }

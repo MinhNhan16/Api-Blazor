@@ -1,6 +1,4 @@
-﻿using ApexCharts;
-using ASM_NhomSugar_SD19311.Data;
-using ASM_NhomSugar_SD19311.Service;
+﻿using ASM_NhomSugar_SD19311.Data;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -14,14 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
-
 builder.Services.AddScoped<HttpClient>();
 builder.Services.AddBlazoredLocalStorage();
-builder.Services.AddAuthentication();
-builder.Services.AddAuthorization();
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddApexCharts();
-builder.Services.AddScoped<StatisticsService>();
+
+
 // Thêm dịch vụ DbContext
 builder.Services.AddDbContext<CakeShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -36,13 +30,6 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn session
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
-
 
 // Thêm dịch vụ Swagger
 builder.Services.AddSwaggerGen(c =>
@@ -81,7 +68,6 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
-builder.Services.AddScoped<AuthService>();
 
 var app = builder.Build();
 
